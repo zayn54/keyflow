@@ -1,0 +1,31 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.47.1", features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0"
+aes-gcm = "0.10.3"
+rand = "0.9.2"
+x25519-dalek = "1.0"
+hkdf = "0.12.4"
+sha2 = "0.10.9"
+base64 = "0.22.1"
+chacha20poly1305 = { version = "0.10.1", features=["alloc"] }
+anyhow = "1.0.100"
+getrandom = "0.2"
+clap = { version = "4.5.48", features = ["derive"] }
+log = "0.4.28"
+env_logger = "0.11.8"
+indicatif = "0.18.0" # Not in server codebase
+rpassword = "7.0"
+chrono = "0.4"
+colored = "2.0"
+hex = "0.4"
+ed25519-dalek = { version = "1.0", features = ["std"] }
+
+# For rustls TLS client
+rustls = "0.23.32"
+tokio-rustls = "0.26.4"
