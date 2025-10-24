@@ -1,13 +1,9 @@
 # === Build artifacts ===
-/target
+/target/
 
 # === Local database & runtime data ===
-chat_server_db/
-*.db
-*.log
-*.out
-*.conf
-snap.*
+*.chat_id
+*.chat_secret
 
 # === Binaries and archives ===
 *.exe

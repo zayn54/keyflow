@@ -1,5 +1,5 @@
 # === Build artifacts ===
-/target
+/target/
 
 # === Local database & runtime data ===
 chat_server_db/
