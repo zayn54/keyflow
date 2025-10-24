@@ -1,1 +1,21 @@
+# === Build artifacts ===
 /target
+
+# === Local database & runtime data ===
+chat_server_db/
+*.db
+*.log
+*.out
+*.conf
+snap.*
+
+# === Binaries and archives ===
+*.exe
+*.zip
+*.tar.gz
+*.log
+*.out
+
+# === Backup or temporary files ===
+*.bak
+*.tmp
