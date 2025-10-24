@@ -1,0 +1,30 @@
+# === Rust build directories ===
+/target/
+/client/target/
+/server/target/
+
+# === Local databases and runtime data ===
+/server/chat_server_db/
+/client/chat_secret/
+*.log
+*.conf
+snap.*
+
+# === Build artifacts, archives, and executables ===
+*.exe
+*.zip
+*.tar.gz
+*.out
+*.bin
+
+# === Editor, OS, and temporary files ===
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# === VSCode settings ===
+.vscode/
+.idea/
+
