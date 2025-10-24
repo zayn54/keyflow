@@ -6,6 +6,10 @@
 # === Local databases and runtime data ===
 /server/chat_server_db/
 /client/chat_secret/
+/client/.chat_id
+/client/.chat_secret
+/.chat_id
+/.chat_secret
 *.log
 *.conf
 snap.*
