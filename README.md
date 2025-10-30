@@ -1,4 +1,4 @@
-# 🚀 Keyflow — The Future of Secure, Decentralized Communication
+# Keyflow — The Future of Secure, Decentralized Communication
 
 **Keyflow** is a next-generation **privacy-first communication system** built for developers, innovators, and freedom seekers.
 It bridges the gap between **client-side encryption** and **server-side performance**, enabling secure, peer-to-peer communication that works seamlessly across devices — from **Linux** and **Windows** to **Android (via Termux)**.
@@ -7,16 +7,16 @@ Whether you’re experimenting locally or deploying globally, Keyflow gives you 
 
 ---
 
-## 🌍 Inspiration
+## Inspiration
 
 The creation of **Keyflow** was inspired by growing concerns about privacy — particularly after President William Ruto of Kenya (our current president 2025) signed a bill allowing government access to citizens’ messages and data.
 Keyflow was developed as a **response to digital surveillance**, ensuring that no authority, company, or entity can invade your private communications.
 
-> 🕊️ *“Privacy is freedom. Keyflow was built to protect it.”*
+> *“Privacy is freedom. Keyflow was built to protect it.”*
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 keyflow/
@@ -36,9 +36,9 @@ Each part can be built and run independently, or together for full system functi
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 🔹 Linux (Ubuntu/Debian)
+### Linux (Ubuntu/Debian)
 
 ```bash
 # Clone the repository
@@ -53,7 +53,7 @@ cd server && cargo build --release
 cd ../client && cargo build --release
 ```
 
-### 🔹 Windows
+### Windows
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
 2. Clone the repository:
@@ -65,7 +65,7 @@ cd ../client && cargo build --release
    ```
 3. Executables (`keyflow.exe`) will be found in `target\release\`.
 
-### 🔹 Android (Termux)
+### Android (Termux)
 
 ```bash
 pkg update && pkg upgrade
@@ -84,7 +84,7 @@ Your binary will be located at:
 
 ---
 
-## 🌐 Running the App with Ngrok
+## Running the App with Ngrok
 
 Ngrok lets you securely expose your local Keyflow server to the internet.
 The free plan assigns a new address every session — so you’ll need to share the updated address with clients whenever you restart Ngrok.
@@ -141,7 +141,7 @@ To **login**:
 
 ---
 
-## 🧾 Hosting Your Own Public Server (Decentralized Network)
+## Hosting Your Own Public Server (Decentralized Network)
 
 Keyflow is designed so **anyone** can run a server on their machine and expose it over the internet (for example, to host sessions for friends or an ad-hoc community). Running many independent servers increases resilience and privacy for the network.
 
@@ -189,7 +189,7 @@ Keyflow is designed so **anyone** can run a server on their machine and expose i
 
 ---
 
-## 💻 Example Commands
+## Example Commands
 
 | Action                | Command                            |
 | --------------------- | ---------------------------------- |
@@ -202,7 +202,7 @@ Keyflow is designed so **anyone** can run a server on their machine and expose i
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We’re building something **bold** — a decentralized, privacy-first communication layer that puts power back into users’ hands.
 
@@ -219,14 +219,14 @@ To contribute:
 
 ---
 
-## 💬 Community
+## Community
 
 Got ideas, bugs, or feedback?
 Open an **issue** or start a **discussion** — we’d love to hear from you and make Keyflow even better.
 
 ---
 
-## 🛡️ License
+## License
 
 This project is licensed under the **MIT License** — free to use, modify, and distribute.
 
